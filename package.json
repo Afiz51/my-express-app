@@ -6,7 +6,8 @@
     "start": "node ./bin/www",
     "dev": "ts-node app.ts",
     "type": "module",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
