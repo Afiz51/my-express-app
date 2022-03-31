@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = require("fs");
 const writeFiletoData = (fileName, content) => {
-    fs.writeFileSync(fileName, JSON.stringify(content), "utf8", (err) => {
+    fs.writeFileSync(fileName, JSON.stringify(content, null, 2), "utf8", (err) => {
         if (err) {
             console.log(err);
         }
